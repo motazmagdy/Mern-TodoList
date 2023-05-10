@@ -1,0 +1,11 @@
+{
+  "name": "mern-todolist-app",
+  "version": "1.0.0",
+  "description": "A simple TodoList using Mern Stack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Motaz Magdy",
+  "license": "ISC"
+}
