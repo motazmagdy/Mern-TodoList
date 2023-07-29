@@ -1,0 +1,92 @@
+.listTitle{
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+    margin: 2rem 0;
+}
+.todo{
+    border-radius: 1rem ;
+    margin: 1rem;
+    padding: 1rem;
+    background-color: hsl(240, 13%, 13%);
+    color :#FEFEFE
+}
+.todoTitle{
+    margin-bottom: 0.5rem;
+    font-size: x-large;
+}
+.accordion-item{
+    border-color: unset;
+    border: none;
+}
+.accordion-button:not(.collapsed){
+    background-color:#373741;
+    color: white;
+    border-radius: unset !important;
+    box-shadow: none;
+}
+.accordion-button.collapsed{
+    background-color:#373741 !important;
+    color: white !important;
+    border-radius: unset !important;
+}
+.accordion-button:focus{
+    box-shadow: none !important;
+}
+.accordion-body{
+    padding: 1rem;
+}
+.todoActions{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+}
+.Icons{
+    margin-right: 0.5rem;
+}
+.editBtn{
+    background-color: #3C82BE;
+}
+.editBtn:hover{
+    border-color: #1D1D26
+}
+.deleteBtn{
+    background-color: #F53649;
+}
+.deleteBtn:hover{
+    border-color:#1D1D26
+}
+.todoUpdate{
+    display: flex;
+    justify-content: space-evenly;
+}
+.updateBtn{
+    background-color: #469B46;
+    color:rgb(255, 255, 255)
+}
+.updateBtn:hover{
+    border-color: #1D1D26
+}
+.cancelBtn{
+    background-color: #45454F;
+    color:white    
+}
+.cancelBtn:hover{
+    border-color:#1D1D26
+}
+
+@media (max-width:575.999999px){
+    .todoUpdate{
+        display: flex;
+        justify-content: space-between;
+    }
+    .todoActions{
+        font-size: small;
+    }
+    .todoUpdate{
+        font-size: small;
+    }
+    .Icons{
+        display: none;
+    }
+}

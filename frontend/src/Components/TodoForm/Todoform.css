@@ -1,0 +1,40 @@
+.title{
+    text-align: center;
+    font-size: x-large;
+}
+.labels{
+    margin-left: 0.4rem;
+}
+.form{
+    width:40rem;
+    margin:auto
+}
+.inputs{
+    display: block;
+}
+.buttonStyled{
+    color:#FEFEFE;
+    background-image: linear-gradient(225deg, #F09777, #BC40DB);
+    border:unset;
+    margin: auto;
+    display: block;
+    cursor: pointer;
+}
+.buttonStyled:hover{
+    background-image: linear-gradient(225deg, #bf7053, #ad22d0);
+    border-color: #fff;
+    transition: all .1s ease-in-out;
+}
+
+@media (max-width:575.999999px){
+    .form{
+        width:auto
+    }
+}
+
+@media (min-width:576px) and (max-width:767.999px){
+    .form{
+        width:auto
+    }
+}
+
