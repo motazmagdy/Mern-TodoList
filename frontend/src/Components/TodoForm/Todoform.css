@@ -6,7 +6,8 @@
     margin-left: 0.4rem;
 }
 .form{
-    width:40rem
+    width:40rem;
+    margin:auto
 }
 .inputs{
     display: block;

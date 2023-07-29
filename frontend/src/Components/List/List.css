@@ -8,7 +8,7 @@
     border-radius: 1rem ;
     margin: 1rem;
     padding: 1rem;
-    background-color: #1D1D26;
+    background-color: hsl(240, 13%, 13%);
     color :#FEFEFE
 }
 .todoTitle{
@@ -79,5 +79,14 @@
     .todoUpdate{
         display: flex;
         justify-content: space-between;
+    }
+    .todoActions{
+        font-size: small;
+    }
+    .todoUpdate{
+        font-size: small;
+    }
+    .Icons{
+        display: none;
     }
 }

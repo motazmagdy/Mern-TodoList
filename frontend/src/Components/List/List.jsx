@@ -6,7 +6,7 @@ import { faTrash,faPenToSquare,faSquareCheck,faXmark } from '@fortawesome/free-s
 
 import "./List.css";
 
-function List(props) {
+function List() {
   const [todosList, setTodos] = useState([]);
   const [updatedId, setEditing] = useState();
   const updatedTitle = useRef();
@@ -36,10 +36,13 @@ function List(props) {
   };
 
   const deleteTodo = (id) => {
-    axios
+    let getConfirm = confirm('Are you sure you want to delete this Todo ?!')
+    if (getConfirm) {
+      axios
       .delete(`https://mern-todolist-0jfr.onrender.com/todos/${id}`)
       .then((res) => alert("Todo Deleted successfully"))
       .catch((err) => console.log(err));
+    }
   };
 
   useEffect(() => {
